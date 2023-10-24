@@ -1,7 +1,7 @@
 from src.CNN_Classifier import logger
 from src.CNN_Classifier.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from src.CNN_Classifier.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
-
+from src.CNN_Classifier.pipeline.stage_03_model_training import ModelTrainingPipeline
 
 
 STAGE_NAME = "Data Ingestion stage"
